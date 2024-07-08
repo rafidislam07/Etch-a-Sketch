@@ -27,3 +27,22 @@ margin: 0 auto;
     align-items: center;
     
 }
+
+#btn-container {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+#btn {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: lightpink
+}
+
+#btn:hover {
+    cursor: pointer;
+    background-color: rebeccapurple;
+    opacity: 90%;
+}
